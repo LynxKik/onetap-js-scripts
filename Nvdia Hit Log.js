@@ -10,7 +10,7 @@ UI.AddColorPicker("Hitlog Color");
 //Check if color is unset
 var color = UI.GetColor("MISC", "JAVASCRIPT", "Script Items", "Hitlog Color");
 if (color[0] === 0 && color[1] === 0 && color[2] === 0 && color[3] === 0)
-    UI.SetColor("MISC", "JAVASCRIPT", "Script Items", "Hitlog Color", color);
+    UI.SetColor("MISC", "JAVASCRIPT", "Script Items", "Hitlog Color", [255, 0, 0, 255]);
 
 
 /**
